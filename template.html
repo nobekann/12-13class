@@ -14,6 +14,19 @@
       <input type="text" name="title" />
       <button type="submit">追加</button>
     </form>
+    <form action="/submit" method="post">
+      <label for="day">曜日を選択してください:</label>
+      <select id="day" name="day">
+        <option value="monday">月曜日</option>
+        <option value="tuesday">火曜日</option>
+        <option value="wednesday">水曜日</option>
+        <option value="thursday">木曜日</option>
+        <option value="friday">金曜日</option>
+        <option value="saturday">土曜日</option>
+        <option value="sunday">日曜日</option>
+      </select>
+      <button type="submit">送信</button>
+    </form>    
     <script src="/script.js"></script>
   </body>
 </html>
